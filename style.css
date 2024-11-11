@@ -1,0 +1,122 @@
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-size: large;
+    color: white;
+    height: 30px;
+    width: auto;
+}
+#alt{
+    font-size: small;
+    margin-top: 10px;
+}
+#login{
+display: flex;
+margin-left: 85%;
+padding: 10px;
+justify-content:space-between ;
+position: relative;
+top:-25px;
+}
+/* #main{
+    border: gray 3px solid;
+    position:relative;
+} */
+
+#menu{
+    display: flex;
+    gap: 10px;
+    color: black;
+}
+#menu-img{
+    width: 200px;
+    height: 50px;
+    position: relative;
+top:-15px;
+}
+#menu-two{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    gap: 30px;
+    left: 400px;
+    top: -65px;
+    /* border: 3px gray solid; */
+    border-width: 100%;
+    text-align: center;
+    
+}
+#menu-two img{
+    width: 30px;
+    height: 30px;
+    
+}
+#hr-one{
+position: relative;
+top: -20px;
+border-top:0.5px ;
+width: 100%;
+
+}
+#hr-two{
+    position: relative;
+    top: -20px;
+border-top:0.5px ;
+width: 100%;
+margin-top: -10px;
+
+    }
+    #market-cap{
+        border: 1px grey solid;
+        font-size: small;
+        justify-content: space-between;
+        width: 300px;
+        border-radius: 20px;
+padding: 5px;
+/* margin-bottom: 2px; */
+    }
+    #trading-vol{
+        border: 1px grey solid;
+        font-size: small;
+        width: 300px;
+        border-radius: 20px;
+padding: 5px;
+margin-top: 15px;
+    }
+    #market-trending{
+        justify-content: space-between;
+        margin: 5px;
+        padding: 5px;
+    }
+    #trending{
+        border: 1px solid gray;
+        border-radius: 20px;
+        padding: 5px;
+        width: 400px;
+        position: relative;
+        left: 26%;
+        top: -195px;
+    }
+    .trend-img{
+        width: 20px;
+        height: 20px;
+    }
+    #gainers{
+        border: 1px solid gray;
+        border-radius: 20px;
+        padding: 5px;
+        width: 400px;
+        position: relative;
+        left: 60%;
+        top: -385px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        justify-content: center;
+    }
+
